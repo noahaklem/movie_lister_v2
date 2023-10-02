@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+gemspec
+
+gem 'rake'
+gem 'dotenv'
+gem 'httparty'
+
+group :development do
+    gem 'byebug'
+    gem 'pry'
+end
