@@ -1,0 +1,3 @@
+class MovieLister::Movie 
+
+end

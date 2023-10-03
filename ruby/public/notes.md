@@ -9,6 +9,8 @@
 
 ## CLASSES
     1. API - providing data for movie class
+        1a. will need to communicate with api somehow
+        1b. will need to organize data for movie class
 
     2. Movie - creating movie instances
 
