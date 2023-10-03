@@ -13,6 +13,11 @@
     2. Movie - creating movie instances
 
     3. CLI - Responsible for user interaction and presentation
+        3a. Greets user
+        3b. Asks for user input
+        3c. Ends program when finished
+    
+## QUESTIONS
     Questions:
         1. Is there any class relationships?
 
