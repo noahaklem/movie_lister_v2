@@ -1,7 +1,0 @@
-#!/usr/bin/env ruby
-
-# ^^^ shebang line
-
-require_relative '../lib/movie_lister_v2.rb'
-
-MovieListerV2::CLI.new.call
