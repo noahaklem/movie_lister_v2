@@ -1,0 +1,8 @@
+require_relative './config/environment'
+
+#some practice rake commands written here
+
+describe 'open pry'
+task :console do
+    pry.start
+end
