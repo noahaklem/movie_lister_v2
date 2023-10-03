@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+# This is a good name and place for our file to startup. 
+# To execute in the terminal it would look like this => bin/run
+# and our app would start by requiring the environment files and the making a new instance of the CLI
+
+# we can require the config/environment file here this will load everything in the environment file before executing
+require_relative '../config/environment'
+
+MovieLister::CLI.new.call
