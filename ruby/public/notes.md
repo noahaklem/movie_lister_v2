@@ -9,8 +9,22 @@
 
 ## CLASSES
     1. API - providing data for movie class
-        1a. will need to communicate with api somehow
+        1a. will need to communicate with api somehow = HTTParty or URI & net/http
+
+            # response = HTTParty.get(@base_url, headers: {
+            #     Authorization: @auth
+            # } )
+
+            results are stored in a 'results' array 
+                attributes are: 
+                    "original_title"
+                    "overview"
+                    "release_date"
+                    "vote_average"
+
         1b. will need to organize data for movie class
+
+
 
     2. Movie - creating movie instances
 
