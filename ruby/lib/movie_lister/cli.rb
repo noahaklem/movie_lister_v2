@@ -19,6 +19,6 @@ class MovieLister::CLI
     end
 
     def get_movies
-        
+        MovieLister::API.new.get_data
     end
 end
