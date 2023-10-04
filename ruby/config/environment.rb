@@ -9,3 +9,4 @@ Bundler.require(:default, :development)
 require_relative '../lib/concerns/movie_lister'
 require_relative '../lib/movie_lister/cli'
 require_relative '../lib/movie_lister/api'
+require_relative '../lib/movie_lister/movie'
