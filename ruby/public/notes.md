@@ -24,12 +24,12 @@
 
         1b. will need to organize data for movie class
             doesnt need to organize the data due to structure of array of objects
-
-
-
+    <div>
+        <img src="./flowchart.png" alt="flowchart picture">
+    </div>
     2. Movie - creating movie instances
          2a. create and save new movies from api
-         2b. 
+         2b. pass those movies to CLI for presentation
 
     3. CLI - Responsible for user interaction and presentation
         3a. Greets user
