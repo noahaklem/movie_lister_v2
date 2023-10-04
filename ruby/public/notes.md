@@ -23,10 +23,12 @@
                     "vote_average"
 
         1b. will need to organize data for movie class
+            doesnt need to organize the data due to structure of array of objects
 
 
 
     2. Movie - creating movie instances
+         
 
     3. CLI - Responsible for user interaction and presentation
         3a. Greets user
