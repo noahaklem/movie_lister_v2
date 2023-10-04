@@ -28,7 +28,8 @@
 
 
     2. Movie - creating movie instances
-         
+         2a. create and save new movies from api
+         2b. 
 
     3. CLI - Responsible for user interaction and presentation
         3a. Greets user

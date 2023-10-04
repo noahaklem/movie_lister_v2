@@ -21,4 +21,13 @@ class MovieLister::CLI
     def get_movies
         MovieLister::API.new.get_data
     end
+
+    def self.show(movies)
+        movies.each.with_index(1) do |movie, i|
+            puts "
+                #{i}. Title: #{movie.original_title} 
+                   Rating: #{movie.vote_average} Released: #{movie.release_date}
+                   Overview: #{movie.overview}"
+        end
+    end
 end
