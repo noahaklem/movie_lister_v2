@@ -1,1 +1,6 @@
+
 requests==2.31.0
+ipdb==0.13.13
+pbd
+ipython
+python-dotenv

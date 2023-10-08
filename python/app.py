@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
-from movies_lister.cli import CLI
+import setup
 
-CLI.call()
+cli = setup.movies_lister.cli.CLI()
+cli.call()
