@@ -37,8 +37,6 @@ public class CLI {
         return Arrays.asList(answers).contains(user_input);
     }
 
-
-
     public static void main(String[] args){
         CLI cli = new CLI();
         cli.greet();

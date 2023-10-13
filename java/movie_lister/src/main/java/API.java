@@ -22,8 +22,6 @@ public class API {
         request.setHeader(headers);
         HttpResponse response = httpClient.execute(request);
 
-        
-
         if (response.getStatusLine().getStatusCode() == 200) {
             String jsonResponse = EntityUtils.toString(response.getEntity());
             ObjectMapper objectMapper = new ObjectMapper();
