@@ -1,4 +1,4 @@
-package com.mycompany.movie_lister;
+package com.noahklem.movie_lister;
 
 import static org.junit.Assert.assertTrue;
 
